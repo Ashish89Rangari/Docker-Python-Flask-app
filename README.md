@@ -32,7 +32,7 @@ $ docker ps
 To Push docker image in Dockerhub first tag it , if tagged push directly to Dockerhub.
 
 ```bash
-$ docker-python-flask-app:latest ashishr99/docker-python-flask-app:latest
+$ docker tag python-flask-app:latest ashishr99/docker-python-flask-app:latest
 $ docker push ashishr99/docker-python-flask-app:latest 
 ```
 
